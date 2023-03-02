@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="828.0" prefWidth="1285.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controllar">
+   <children>
+      <ImageView fitHeight="732.0" fitWidth="822.0" layoutX="1.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="66.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="490.0" AnchorPane.topAnchor="-3.0">
+         <image>
+            <Image url="@image4.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="1123.0" layoutY="445.0" mnemonicParsing="false" onAction="#SigninButtonCliked" text="Login" textFill="#f20909">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+         <padding>
+            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+         </padding></Button>
+      <ImageView fitHeight="493.0" fitWidth="651.0" layoutX="733.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image5.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="932.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="932.0" layoutY="406.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Passaward">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="1047.0" layoutY="503.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Register?">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Text>
+      <TextField fx:id="name" layoutX="1018.0" layoutY="354.0">
+         <padding>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </padding>
+      </TextField>
+      <PasswordField id="passward" fx:id="passward" layoutX="1018.0" layoutY="391.0">
+         <padding>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </padding>
+      </PasswordField>
+      <Button layoutX="1116.0" layoutY="486.0" mnemonicParsing="false" onAction="#SignupButtonCliked" text="Sign Up" textFill="#f20a0a">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+         <padding>
+            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+         </padding>
+      </Button>
+      <Button layoutX="804.0" layoutY="557.0" mnemonicParsing="false" onAction="#ConfirmButtonCliked" text="Back" textFill="#1b1a1a">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+         <padding>
+            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+         </padding>
+      </Button>
+   </children>
+</AnchorPane>

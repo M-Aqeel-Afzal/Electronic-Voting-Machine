@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controllar">
+   <children>
+      <AnchorPane layoutX="-47.0" layoutY="-248.0" prefHeight="694.0" prefWidth="493.0">
+         <children>
+            <ImageView fitHeight="873.0" fitWidth="752.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image4.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="404.0" fitWidth="687.0" layoutX="751.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image5.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="958.0" layoutY="613.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PARTY INFORMATION">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="965.0" layoutY="692.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Party Name" />
+            <TextField id="name" fx:id="name" layoutX="1037.0" layoutY="716.0" />
+            <Button layoutX="1145.0" layoutY="809.0" mnemonicParsing="false" onAction="#SaveButtonCliked" text="Save" textFill="#eb0707">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+               <padding>
+                  <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+               </padding>
+            </Button>
+            <Text layoutX="965.0" layoutY="733.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chairman" />
+            <Text layoutX="965.0" layoutY="775.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CNIC" />
+            <TextField id="chairman" fx:id="chairman" layoutX="1037.0" layoutY="675.0" />
+            <TextField id="cnic" fx:id="cnic" layoutX="1037.0" layoutY="758.0" />
+            <Button layoutX="862.0" layoutY="884.0" mnemonicParsing="false" onAction="#BackButtonCliked" text="Back">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+               <padding>
+                  <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+               </padding>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

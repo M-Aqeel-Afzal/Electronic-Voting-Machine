@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controllar">
+   <children>
+      <AnchorPane layoutX="-28.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="788.0" prefWidth="1494.0">
+         <children>
+            <ImageView fitHeight="771.0" fitWidth="761.0" layoutX="36.0" layoutY="-68.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image4.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="340.0" fitWidth="719.0" layoutX="743.0" layoutY="-11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image5.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="1156.0" layoutY="485.0" mnemonicParsing="false" onAction="#removecandidateButtonCliked" text="Delete" textFill="#ee0d0d">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Button>
+            <TextField id="cnic" fx:id="cnic" layoutX="1081.0" layoutY="435.0" prefHeight="25.0" prefWidth="150.0">
+               <padding>
+                  <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+               </padding>
+            </TextField>
+            <Text layoutX="977.0" layoutY="452.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Candidate's CNIC">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="1029.0" layoutY="368.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Candidate Info Deletion">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+            </Text>
+            <Button layoutX="875.0" layoutY="585.0" mnemonicParsing="false" onAction="#ConfirmButtonCliked" text="Back" textFill="#141414">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
